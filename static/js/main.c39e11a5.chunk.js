@@ -114,7 +114,7 @@
               role: "IT Consultant at Thomas Group Consulting",
               date: "Sept 2023 \u2013 Present",
               message:
-                "Led initiative to evaluate and update IT General Controls, and Internal Controls for Financial Reporting, utilizing AWSto automate processes to significantly reduce manual workload and boost operational efficiency.",
+                "Led initiative to evaluate and update IT General Controls, and Internal Controls for Financial Reporting, utilizing AWS to automate processes to significantly reduce manual workload and boost operational efficiency.",
             },
             {
               role: "Cloud Engineering/FinOps Consultant at Capgemini",

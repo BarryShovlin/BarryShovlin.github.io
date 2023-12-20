@@ -28,7 +28,7 @@
             },
             {
               image: "fa-linkedin",
-              url: "https://www.linkedin.com/in/barryshovlin/",
+              url: "https://www.linkedin.com/in/barry-shovlin/",
             },
           ],
         },

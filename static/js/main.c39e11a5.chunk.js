@@ -42,7 +42,7 @@
         },
         d = {
           show: !0,
-          heading: "Personal Project",
+          heading: "Personal Projects",
           gitHubUsername: "barryshovlin",
           reposLength: 0,
           specificRepos: [
@@ -73,32 +73,32 @@
           ],
           imageSize: { width: "615", height: "450" },
         },
-        // g = {
-        //   show: !0,
-        //   heading: "Skills",
-        //   hardSkills: [
-        //     { name: "AWS", value: 80 },
-        //     { name: "FinOps", value: 80 },
-        //     { name: "JavaScript", value: 80 },
-        //     { name: "React", value: 80 },
-        //     { name: "Python", value: 80 },
-        //     { name: "WordPress", value: 80 },
-        //     { name: "HTML/CSS", value: 80 },
-        //     { name: "C#/.NET", value: 80 },
-        //     { name: "Typescript", value: 80 },
-        //     { name: "SQL", value: 80 },
-        //   ],
-        //   softSkills: [
-        //     { name: "Goal-Oriented", value: 80 },
-        //     { name: "Collaboration", value: 90 },
-        //     { name: "Positivity", value: 75 },
-        //     { name: "Adaptability", value: 85 },
-        //     { name: "Problem Solving", value: 75 },
-        //     { name: "Empathy", value: 90 },
-        //     { name: "Organization", value: 70 },
-        //     { name: "Creativity", value: 90 },
-        //   ],
-        // },
+        g = {
+          show: !0,
+          heading: "Skills",
+          hardSkills: [
+            { name: "AWS", value: 80 },
+            { name: "FinOps", value: 80 },
+            { name: "JavaScript", value: 80 },
+            { name: "React", value: 80 },
+            { name: "Python", value: 80 },
+            { name: "WordPress", value: 80 },
+            { name: "HTML/CSS", value: 80 },
+            { name: "C#/.NET", value: 80 },
+            { name: "Typescript", value: 80 },
+            { name: "SQL", value: 80 },
+          ],
+          softSkills: [
+            { name: "Goal-Oriented", value: 80 },
+            { name: "Collaboration", value: 90 },
+            { name: "Positivity", value: 75 },
+            { name: "Adaptability", value: 85 },
+            { name: "Problem Solving", value: 75 },
+            { name: "Empathy", value: 90 },
+            { name: "Organization", value: 70 },
+            { name: "Creativity", value: 90 },
+          ],
+        },
         p = !0,
         h = "Get In Touch",
         b = "Wanna talk shop? You can reach me at",
@@ -844,12 +844,12 @@
                       { className: "nav-link lead", href: "/#aboutme" },
                       "About"
                     ),
-                //   g.show &&
-                //     r.a.createElement(
-                //       ee.a.Link,
-                //       { className: "nav-link lead", href: "/#skills" },
-                //       "Skills"
-                //     )
+                  g.show &&
+                    r.a.createElement(
+                      ee.a.Link,
+                      { className: "nav-link lead", href: "/#skills" },
+                      "Skills"
+                    )
                 )
               )
             )
@@ -858,20 +858,15 @@
         te = t(51),
         ne = t(74),
         re = t(73);
-      var le = function (e) {
-        var a = e.skill,
-          t = e.value,
-          n = e.isScrolled;
-        return r.a.createElement(
-          "div",
-          { style: { width: "95%" } },
-          r.a.createElement("p", { className: "lead mb-1 mt-2" }, a),
-          r.a.createElement(re.a, {
-            className: n ? " progress-bar-animation" : "progress",
-            now: t,
-          })
-        );
-      };
+        var le = function (e) {
+            var a = e.skill,
+              n = e.isScrolled;
+            return r.a.createElement(
+              "div",
+              { style: { width: "95%" } },
+              r.a.createElement("p", { className: "lead mb-1 mt-2" }, a)
+            );
+          };
       function se(e) {
         var a = e.skills,
           t = e.isScrolled;

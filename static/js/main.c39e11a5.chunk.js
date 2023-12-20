@@ -79,6 +79,7 @@
           hardSkills: [
             { name: "AWS", value: 80 },
             { name: "FinOps", value: 80 },
+            {name: "Excel", value: 80},
             { name: "JavaScript", value: 80 },
             { name: "React", value: 80 },
             { name: "Python", value: 80 },
@@ -87,6 +88,8 @@
             { name: "C#/.NET", value: 80 },
             { name: "Typescript", value: 80 },
             { name: "SQL", value: 80 },
+            { name: "Docker", value: 80 },
+            { name: "Kubernetes", value: 80},
           ],
           softSkills: [
             { name: "Goal-Oriented", value: 80 },

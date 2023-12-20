@@ -120,7 +120,7 @@
               role: "Cloud Engineering/FinOps Consultant at Capgemini",
               date: "Jan 2022 \u2013 June 2023",
               message:
-                "AWS Solutions Architect and Engineer responsible for delivering architectural solutions and developing cloud infrastructure and landing zones using infrastructure as code. Quickly transitioned to FinOps engagements, ultimately becoming recognized as the FinOps SME within Capgemini's Cloud Infrastructure Services. Led development of FinOps teams for enterprise level clients, promoting a culture change around cloud spend. Bridged gaps between IT andFinance to facilitate collaboration and clear communication around business goals. Utilized expertise in cost management services within the main public cloud providers, AWS, Azure, and GCP along with cost management platforms including CloudHealth, CloudCheckr, and Cloudability.",
+                "AWS Solutions Architect and Engineer responsible for delivering architectural solutions and developing cloud infrastructure and landing zones using infrastructure as code. Quickly transitioned to FinOps engagements, ultimately becoming recognized as the FinOps SME within Capgemini's Cloud Infrastructure Services. Led development of FinOps teams for enterprise level clients, promoting a culture change around cloud spend. Bridged gaps between IT and Finance to facilitate collaboration and clear communication around business goals. Utilized expertise in cost management services within the main public cloud providers, AWS, Azure, and GCP along with cost management platforms including CloudHealth, CloudCheckr, and Cloudability.",
             },
             {
               role: "Software Developer At ManAlive Studios",
